@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en ">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <button class="btn-menubar">
+            <i class="fas fa-bars"></i>
+        </button>
+        <h2>REG.HELPDESK</h2>
+
+            <ul>
+                <li><a href="#">EN &nbsp / &nbsp TH</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                
+            </ul>
+        
+    </nav>
+    
+    <form>
+        <div class="form-group">
+            <h3>Login</h3>
+            <div><input type="text" placeholder="Username"></div>
+            <div><input type="password" placeholder="Password"></div>
+            <a href="file:///C:/Users/Pun/Desktop/EAD%20project/index.html" class="btn-submit"> Login</a>
+        </div>
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    
+    <script>
+       $(document).ready(function(){
+            $(".btn-menubar").on("click", function(){
+                    $("nav ul").toggleClass("nav-active");
+            })
+       });
+    </script>
+</body>
+</html>
