@@ -72,11 +72,11 @@ form div h3{
     flex-direction: column;   
 }
 input{
+    margin: -20px;
     font-size: 20px;
     border: none;
     border-radius: 10px;
-    padding: 10px 10px
-    
+    padding: 10px 10px   
 }
 .btn-submit{
     background:#000000;
@@ -88,6 +88,12 @@ input{
 .btn-submit:hover{
     color: rgb(181, 179, 179);
     transition: .3s ease;
+}
+/*reportsubmited*/
+p{
+    padding-bottom:50px ;
+    padding-top: 20px;
+    color: white;
 }
 
 
