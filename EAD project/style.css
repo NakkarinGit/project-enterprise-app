@@ -48,7 +48,7 @@ nav ul li a:hover{
     color: rgb(0, 0, 0);
     border-radius: 50px;
 }
-/*form*/
+/*form index*/
 form {
     
     min-height: 80vh;
@@ -91,11 +91,42 @@ input{
 }
 /*reportsubmited*/
 p{
-    padding-bottom:50px ;
+    padding-bottom:20px ;
     padding-top: 20px;
     color: white;
 }
+.tracklink{
+    padding-bottom:20px ;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+.tracklink:hover{
+    color: rgb(181, 179, 179);
+    transition: .3s ease;
+}
 
+/*tracking*/
+.formhead{
+    color: #000;
+    display:flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.formlink{
+    color: #000;
+    display:flex;
+    justify-content: center;
+}
+.formlink:hover{
+    color: rgb(181, 179, 179);
+    transition: .3s ease;
+}
+
+/*satifaction form*/
+.btn-headback{
+    text-decoration: none;
+    color: white;
+}
 
 /*mobile*/
 @media screen and (max-width: 900px) {
